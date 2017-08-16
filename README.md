@@ -31,6 +31,10 @@ cd rss-web
 ## Run tomcat7 server and deploy app
 mvn tomcat7:run-war
 
+## 如果报错可避开测试运行
+mvn tomcat7:run-war -DskipTests=true
+
+
 ## In Your browser go to URL address
 http://localhost:8081/rss-web/
 ```
